@@ -1,6 +1,6 @@
 var assert = require("assert"),
     add = require('../index').add;
-    sub = require('../index').sub
+    sub = require('../index').sub;
 describe('add', function(){
     it('should return addition of 2 numbers', function(){
         assert.equal(6, add(5,1));
