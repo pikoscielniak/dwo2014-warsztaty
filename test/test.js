@@ -10,6 +10,6 @@ describe('add', function(){
 describe('subtract', function(){
     it('should return subtraction of 2 numbers', function(){
         assert.equal(4, subtract(5,1));
-        assert.equal(4, subtract(6,2));
+        assert.equal(6, subtract(8,2));
      })
 })
