@@ -1,6 +1,7 @@
 var assert = require("assert"),
-    add = require('../index').add,
-    is_odd = require('../index').is_odd;
+    func = require('../index').func;
+var add = func.add,
+    is_odd = func.is_odd;
 describe('add', function(){
     it('should return addition of 2 numbers', function(){
         assert.equal(6, add(5,1));
