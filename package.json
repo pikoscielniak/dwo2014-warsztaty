@@ -1,0 +1,17 @@
+{
+  "name": "DWO-warsztaty-2014",
+  "version": "0.0.1",
+  "description": "Warsztaty DWO 2013",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.26"
+  },
+  "scripts": {
+    "test": "mocha --recursive -R spec ./test"
+  },
+  "license": "GPLv2",
+  "homepage": "https://github.com/piotrekbass/dwo2014-warsztaty"
+}
