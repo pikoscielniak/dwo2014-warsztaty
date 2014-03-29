@@ -6,3 +6,9 @@ describe('add', function(){
         assert.equal(8, add(6,2));
      })
 })
+describe('quotient', function(){
+    it('should return quotient of 2 numbers', function(){
+        assert.equal(5, quotient(5,1));
+        assert.equal(3, quotient(6,2));
+     })
+})
