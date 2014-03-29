@@ -6,3 +6,10 @@ describe('add', function(){
         assert.equal(8, add(6,2));
      })
 })
+describe('mod', function(){
+    it('should return reminder from dividing of 2 numbers', function(){
+        assert.equal(1, mod(3,2));
+        assert.equal(3, mod(7,4));
+        assert.equal(0, mod(9,3));
+     })
+})
